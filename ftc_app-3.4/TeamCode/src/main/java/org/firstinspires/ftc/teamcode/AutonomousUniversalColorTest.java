@@ -66,7 +66,7 @@ public class AutonomousUniversalColorTest extends LinearOpMode {
     DcMotor liftMotor;
     Servo ballStopper;
     DcMotor ballShooter;
-    static final double DRIVE_POWER = 1.0; bu           1][]
+    static final double DRIVE_POWER = 1.0;
     static final double SHOOT_POWER = 0.7;
     static final double DRIVE_LESS_POWER = 0.3;
     static final double NO_SHOOT_POWER = 0.0;
