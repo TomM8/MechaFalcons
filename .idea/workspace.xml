@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b3f0aca-73e2-4478-9ac2-e334835fb749" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ftc_app-3.4/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/AutonomousUniversalColorTest.java" afterPath="$PROJECT_DIR$/ftc_app-3.4/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/AutonomousUniversalColorTest.java" />
-    </list>
+    <list default="true" id="8b3f0aca-73e2-4478-9ac2-e334835fb749" name="Default" comment="" />
     <ignored path="Mecha_Falcons.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +58,11 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane />
       </pane>
       <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>

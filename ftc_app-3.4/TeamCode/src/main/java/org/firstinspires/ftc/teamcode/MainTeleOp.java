@@ -47,6 +47,12 @@ import com.qualcomm.robotcore.hardware.Servo;
  * Motor one and motor two - left joystick
  * Motor three and motor four - right joystick
  * Color sensor enable - X
+ *
+ *
+ * TeleOp for the 2017/18 FTC games
+ * --> Motor/s for the lifting of the arms to extend to the height for placing the blocks
+ * --> Servos to extend outwards and inwards to grab the blocks
+ * --> Driving motors (Done)
  */
 
 // It's a teleop. It ops the tele. Simple.
@@ -141,8 +147,7 @@ public class MainTeleOp extends OpMode {
         //region Wheels
 
 
-        // There will be 4 motors in the next design
-        // This should now work to have motor one and motor two to work on the left joystick and motor three and four to work on the right joystick
+        // There will be 4 motors two going in x direction and two going in y direction
 
 
         // This will let the robot turn left and right
@@ -169,19 +174,6 @@ public class MainTeleOp extends OpMode {
 
 
         //endregion
-
-        //region center motors - this is currently all commented (not in use)
-
-        //if(gamepad1.a){
-            //centerMotorOne.setPower(MOTOR_FULL_POWER);
-            //centerMotorTwo.setPower(MOTOR_FULL_POWER);
-        //}
-        //else {
-            //centerMotorOne.setPower(MOTOR_POWER_OFF);
-            //centerMotorTwo.setPower(MOTOR_POWER_OFF);
-        //}
-
-        //endregion -  -
 
         //region lifting motors
 
